@@ -32,7 +32,7 @@ export default function Skills() {
           ].map((skill, index) => (
             <div
               key={index}
-              className="border border-gray-800 rounded-lg shadow shadow-orange-300 p-6 md:p-10 flex flex-col justify-between h-full min-h-[160px]"
+              className="border border-gray-800 rounded-lg shadow shadow-orange-300 p-6 md:p-10 flex flex-col justify-between h-full min-h-[160px]  hover:scale-105 transition-transform duration-300"
             >
               <h3 className="text-xl md:text-2xl ">{skill.title}</h3>
               <p className="text-sm mt-4 md:text-xl ">{skill.description}</p>
