@@ -14,7 +14,7 @@ const projects = [
   },
   {
     id: 2,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/e-commace.jpg",
     title: "E-commerce Platform",
     description: "A full-featured online store with product management, cart functionality, and secure checkout.",
     projectLink: "/projects/ecommerce",

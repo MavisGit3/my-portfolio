@@ -11,7 +11,7 @@ export default function Skills() {
       </div>
 
       <div className="border border-gray-800 mx-5 mt-5 py-10 rounded-lg shadow shadow-orange-200 md:px-10 md:py-10 md:mx-60">
-        <div className="grid grid-cols-2 md:grid-cols-2 gap-6 md:gap-10 px-4 md:px-0">
+        <div className="grid grid-cols md:grid-cols-2 gap-6 md:gap-10 px-4 md:px-0">
           {[
             {
               title: "Next.js",
