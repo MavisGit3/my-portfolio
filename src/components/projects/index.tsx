@@ -50,7 +50,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div id="projects" className="container mx-auto px-4 py-12">
+    <div id="projects" className="container mx-auto mt-20 px-4 py-12">
       <h1 className="text-2xl font-bold font-serif mb-8 text-center">My Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
