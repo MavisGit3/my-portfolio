@@ -25,7 +25,6 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real application, you would send this data to your server
     console.log({ name, email, message });
 
     // Simulate form submission
@@ -87,19 +86,20 @@ export default function Contact() {
               <div className="flex justify-center mt-7 gap-6">
                 <Link
                   className=" hover:text-orange-200 transition duration-300"
-                  href=""
+                  href="https://github.com/MavisGit3"
                 >
                   <Github />
                 </Link>
                 <Link
                   className=" hover:text-orange-200 transition duration-300"
-                  href=""
+                  href="https://twitter.com/mavisogodu3 
+"
                 >
                   <Twitter />
                 </Link>
                 <Link
                   className=" hover:text-orange-200 transition duration-300"
-                  href=""
+                  href="https://www.linkedin.com/in/mavis-ogodu-471528179/"
                 >
                   <Linkedin />
                 </Link>
