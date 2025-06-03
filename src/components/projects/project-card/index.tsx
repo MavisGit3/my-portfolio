@@ -38,7 +38,7 @@ export function ProjectCard({ image, title, description, projectLink, demoLink }
           <Button
             asChild
             variant="outline"
-            className=" text-gray-900 border border-gray-800 hover:bg-orange-100 transition duration-300"
+            className=" bg-gray-900 text-white  border border-gray-800 hover: transition duration-300"
           >
             <Link href={demoLink}>
               Live Demo <ArrowRight className="ml-2 h-4 w-4" />
