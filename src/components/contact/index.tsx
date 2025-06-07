@@ -64,6 +64,7 @@ export default function Contact() {
                   <a
                     href="mailto:mavisogodu@gmail.com"
                     className="font-medium hover:underline"
+                     target="_blank"
                   >
                     mavisogodu@gmail.com
                   </a>
@@ -87,19 +88,21 @@ export default function Contact() {
                 <Link
                   className=" hover:text-orange-200 transition duration-300"
                   href="https://github.com/MavisGit3"
+                   target="_blank"
                 >
                   <Github />
                 </Link>
                 <Link
                   className=" hover:text-orange-200 transition duration-300"
                   href="https://twitter.com/mavisogodu3 
-"
+" target="_blank"
                 >
                   <Twitter />
                 </Link>
                 <Link
                   className=" hover:text-orange-200 transition duration-300"
                   href="https://www.linkedin.com/in/mavis-ogodu-471528179/"
+                   target="_blank"
                 >
                   <Linkedin />
                 </Link>

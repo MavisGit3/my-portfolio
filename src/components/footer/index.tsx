@@ -23,13 +23,13 @@ export default function Footer() {
               <h2 className="text-xl  text-orange-400">Mavis ogodu Ayikpo</h2>
             </div>
             <div className="flex space-x-4">
-              <Link href="https://github.com/MavisGit3" aria-label="GitHub">
+              <Link href="https://github.com/MavisGit3" aria-label="GitHub"  target="_blank">
                 <Github className="text-white hover:text-orange-200 transition-colors" />
               </Link>
-              <Link href="https://twitter.com/mavisogodu3 " aria-label="Twitter">
+              <Link href="https://twitter.com/mavisogodu3 " aria-label="Twitter" target="_blank">
                 <Twitter className="text-white hover:text-orange-200 transition-colors" />
               </Link>
-              <Link href="https://www.linkedin.com/in/mavis-ogodu-471528179/" aria-label="LinkedIn">
+              <Link href="https://www.linkedin.com/in/mavis-ogodu-471528179/" aria-label="LinkedIn"  target="_blank">
                 <Linkedin className="text-white hover:text-orange-200 transition-colors" />
               </Link>
             </div>

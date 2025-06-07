@@ -6,7 +6,7 @@ import { ProjectCard } from "./project-card"
 const projects = [
   {
     id: 1,
-    image: "/images/r-menu.png ",
+    image: "/images/r-menu.png",
     title: "Restaurant Menu App",
     description: "A digital menu application for restaurants with real-time updates and ordering capabilities.",
     projectLink: "https://github.com/MavisGit3/Delicious-Eats",

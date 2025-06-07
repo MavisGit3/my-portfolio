@@ -26,7 +26,7 @@ export default function Skills() {
               description: "Type safety, interfaces, generics, utility types",
             },
             {
-              title: "UI",
+              title: "UI/UX",
               description: "Tailwind CSS, responsive design",
             },
           ].map((skill, index) => (
