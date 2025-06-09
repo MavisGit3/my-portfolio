@@ -35,7 +35,7 @@ export default function Experience() {
                 <h4 className="text-xl ">Frontend Developer</h4>
                 <div className="flex items-center gap-1 text-gray-300">
                   <Calendar className="h-4 w-4" />
-                  <span>2024</span>
+                  <span>2025</span>
                 </div>
               </div>
               <h5 className="text-lg text-purple-400 mb-2">
