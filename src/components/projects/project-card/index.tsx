@@ -31,7 +31,7 @@ export function ProjectCard({ image, title, description, projectLink, demoLink }
             asChild
             className="bg-orange-100 text-gray-900 border border-gray-800 hover:bg-orange-200 transition duration-300"
           >
-            <Link href={projectLink}>
+            <Link href={projectLink} target="_blank">
               View Project <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
@@ -40,7 +40,7 @@ export function ProjectCard({ image, title, description, projectLink, demoLink }
             variant="outline"
             className=" bg-gray-900 text-white  border border-gray-800 hover: transition duration-300"
           >
-            <Link href={demoLink}>
+            <Link href={demoLink} target="_blank">
               Live Demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
