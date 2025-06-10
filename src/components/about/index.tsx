@@ -31,12 +31,12 @@ export default function About() {
         </p>
         <div className="flex justify-center mt-6 md: ">
           <Link
-            href="/resume.pdf" 
+            href="/docs/OGODU_CV.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-orange-100 text-gray-900 border border-gray-800 px-6 py-3 rounded-lg font-bold font-serif shadow hover:bg-orange-200 transition duration-300"
           >
-            <Download className="w-5 h-5" />
+            <Download className="w-5 h-5"/>
             <span className="text-sm md:text-base">Download Resume</span>
           </Link>
         </div>
