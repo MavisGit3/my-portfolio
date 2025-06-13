@@ -15,9 +15,9 @@ import Footer from "@/src/components/footer";
 
 const navItems = [
   { name: "Home", href: "/" },
+  { name: "Projects", href: "#projects" },
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skill" },
-  { name: "Projects", href: "#projects" },
   { name: "Experience", href: "#experience" },
   { name: "Contact", href: "#contact" },
 ];
