@@ -110,15 +110,22 @@ export default function Home() {
           </div>
         )}
       </div>
-
-      {/* Sections */}
-      <Hero />
+      
+      {/* hero page */}
+      <Hero /> 
+      {/* TypeWriterEffect page */}
       <TypewriterEffect />
+      {/* About page */}
       <About />
+      {/* projects page */}
       <Projects />
+      {/* skills page */}
       <Skills />
+      {/* Experince page */}
       <Experience />
+      {/* Contact page */}
       <Contact />
+      {/* Footer page */}
       <Footer />
     </main>
   );
